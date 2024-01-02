@@ -8,7 +8,7 @@ LINK HOSTED API (Okteto): https://restaurant-service-aleksander-baum.cloud.oktet
 
 LINK FRONT-END: https://aleksander-api.netlify.app/
 
-Voor dit project heb ik verkozen om verder te bouwen op mijn restaurant API. Hierbij kon ik de een PUT functie toevoegen en een frontend uitwerken.
+Voor dit project heb ik verkozen om verder te bouwen op mijn restaurant API. Hierbij kon ik een PUT functie toevoegen en een frontend uitwerken.
 
 In mijn API zijn er 3 soorten data: Restaurants, Owners en Menu Items. Dit is zowat de basis dat een restaurant API moet hebben.
 
@@ -27,7 +27,7 @@ In totaal zijn er 5 GET, 3 POST en 1 DELETE en 1 PUT endpoints. Validaties heb i
 In de beschrijving van het eindproject staat geschreven dat SQLite moet gebruikt worden, maar omdat ik bij het eerste deel gekozen had me MySQL te werken is dit hier ook zo.
 
 ### Deploying
-Mijn API wordt correct naar een docker opgebouwd dankzij automatische GitHub Actions. De deployment naar Okteto werkt helaas niet wegens een passlib error die ik niet opgelost krijg. Het deployen van de frontend gebeurt met Netlify.
+Mijn API wordt correct naar docker opgebouwd dankzij automatische GitHub Actions. De deployment naar Okteto werkt helaas niet wegens een passlib error die ik niet opgelost krijg. Het deployen van de frontend gebeurt met Netlify.
 
 ### Bijkomende componenten
 Om verder te bouwen op het basisproject is er deze keer ook een PUT-functie toegevoegd om het adres van restaurants aan te passen, maar is er ook gezorgd voor login mogelijkheid met hashing en OAuth.
